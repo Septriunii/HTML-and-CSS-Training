@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+  </body>
+  <style>
+    .parent {
+      background-color: blue;
+      height: 400px;
+      width: 400px;
+    }
+    .child {
+      background-color: red;
+      height: 50%;
+      width: 50%;
+      animation: left-to-right 1s ease-in forwards alternate infinite;
+    }
+    .parent:hover .child {
+      animation-play-state: paused;
+    }
+    @keyframes left-to-right {
+      0% {
+        transform: translateX(0%);
+      }
+      33% {
+        background-color: green;
+        transform: translateY(100%);
+      }
+      66% {
+        transform: translateX(100%) translateY(100%);
+      }
+      100% {
+        background-color: black;
+        transform: translateX(100%);
+      }
+    }
+  </style>
+</html>

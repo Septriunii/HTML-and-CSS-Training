@@ -1,0 +1,95 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 350px;
+  width: 450px;
+  box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.15);
+  margin: auto;
+  margin-top: 150px;
+}
+.top {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.dis {
+  display: flex;
+  margin-left: 15px;
+  height: 16px;
+  color: gray;
+}
+.mid {
+  height: 80px;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+}
+.dp {
+  flex: 1;
+  height: 100%;
+}
+.actdp {
+  background-image: url(er.png);
+  background-size: cover;
+  background-position: center;
+  height: 70px;
+  width: 70px;
+  margin-left: 15px;
+  border-radius: 35px;
+}
+.info {
+  height: 100%;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+.one {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+.name {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.time {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.two {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  font-size: 14px;
+}
+
+.three {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: gray;
+}
+
+#eren {
+  background-image: url(er.png);
+}
+#found {
+  background-image: url(fo.png);
+}
+#floch {
+  background-image: url(f.png);
+}
